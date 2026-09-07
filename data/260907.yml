@@ -5,13 +5,13 @@ about:
   head: 07f5c4c
   archived: false
   latestVersion: ""
-  collectedAt: 2026-09-07T05:21:40Z
+  collectedAt: 2026-09-07T19:06:06Z
 timeline:
   created: 2013-05-17
   lastCommit: 2026-01-31
   lastRelease: 
 popularity:
-  star: 4313
+  star: 4315
   watcher: 64
   fork: 256
   release: 0
@@ -84,7 +84,7 @@ total:
   commit: 899
 ---
 path: /home/runner/.x-repo/github.com/kohler/gifsicle
-collectedAt: 2026-09-07T05:21:43Z
+collectedAt: 2026-09-07T19:06:07Z
 loc:
   C:
     code: 14711
@@ -198,7 +198,7 @@ checks:
       - 'Warn: 0 commits out of 8 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:21:45+00:00
+  collectedAt: 2026-09-07T19:06:08+00:00
   platform:
     darwin/arm64:
       name:  null
