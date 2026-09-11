@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-11T05:27:14Z
+  collectedAt: 2026-09-11T19:36:40Z
 timeline:
   created: 2013-05-17
   lastCommit: 2026-01-31
@@ -88,7 +88,7 @@ total:
   commit: 899
 ---
 path: /home/runner/.x-repo/github.com/kohler/gifsicle
-collectedAt: 2026-09-11T05:27:15Z
+collectedAt: 2026-09-11T19:36:41Z
 loc:
   C:
     code: 14711
