@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,316 · **Forks**: 256 · **Open issues**: 178 · **Contributors**: 15
+- **Stars**: 4,318 · **Forks**: 256 · **Open issues**: 178 · **Contributors**: 15
 
 ## Totals (cumulative)
 
@@ -52,31 +52,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 2 | 0 | 0 | 0 |
-| last60d | 2026-07-15 | 0 | 0 | 2 | 0 | 2 | 0 |
-| 90d | 2026-06-15 | 0 | 0 | 2 | 0 | 2 | 0 |
-| last180d | 2026-03-17 | 0 | 0 | 2 | 0 | 2 | 0 |
-| 360d | 2025-09-18 | 0 | 1 | 2 | 1 | 3 | 2 |
-| last720d | 2024-09-23 | 0 | 1 | 2 | 3 | 8 | 15 |
-
-## Distribution status
-
-Reported by **137** distros on [repology.org](https://repology.org/project/gifsicle). **65** are ✅ on the latest upstream release, **48** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.96` | ✅ latest |
-| Debian 14 | `1.96` | ✅ latest |
-| Debian 13 | `1.96` | ✅ latest |
-| Ubuntu 26.04 LTS | `1.96` | ✅ latest |
-| Ubuntu 24.04 LTS | `1.94` | ⚠️ outdated |
-| Arch | `1.96` | ✅ latest |
-| Homebrew | `1.96` | ✅ latest |
-| Fedora rawhide | `1.96` | ✅ latest |
-| Nix unstable | `1.96` | ✅ latest |
-| Void | `1.96` | ✅ latest |
-| Alpine edge | `1.96` | ✅ latest |
-| openSUSE Tumbleweed | `1.96` | ✅ latest |
+| 30d | 2026-08-15 | 0 | 0 | 2 | 0 | 0 | 0 |
+| last60d | 2026-07-16 | 0 | 0 | 2 | 0 | 2 | 0 |
+| 90d | 2026-06-16 | 0 | 0 | 2 | 0 | 2 | 0 |
+| last180d | 2026-03-18 | 0 | 0 | 2 | 0 | 2 | 0 |
+| 360d | 2025-09-19 | 0 | 1 | 2 | 1 | 3 | 2 |
+| last720d | 2024-09-24 | 0 | 1 | 2 | 3 | 8 | 15 |
 
 ## Improve this data
 
@@ -87,4 +68,4 @@ Install metadata for gifsicle lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:34:34Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:54:40Z._
