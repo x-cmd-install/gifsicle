@@ -14,13 +14,13 @@ x install gifsicle
 
 ## Code insight
 
-Total: **15,338** lines of code across **28** files in the top 5 languages.
+Total: **15,562** lines of code across **28** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 14,727 | 2,002 | 2,565 | 20 |
-| CHeader | 543 | 173 | 191 | 3 |
-| Automake | 67 | 2 | 19 | 2 |
+| C | 14,929 | 2,081 | 2,563 | 20 |
+| CHeader | 562 | 180 | 198 | 3 |
+| Automake | 70 | 2 | 19 | 2 |
 | Sh | 1 | 1 | 0 | 1 |
 | Markdown | 0 | 792 | 562 | 2 |
 
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,330 · **Forks**: 254 · **Open issues**: 179 · **Contributors**: 15
+- **Stars**: 4,329 · **Forks**: 254 · **Open issues**: 179 · **Contributors**: 15
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 20 · **Open PRs**: 1 · **Closed issues**: 156 · **Open issues**: 23 · **Commits**: 912
+- **Releases**: 0 · **Merged PRs**: 20 · **Open PRs**: 1 · **Closed issues**: 157 · **Open issues**: 22 · **Commits**: 937
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 0 | 0 | 0 | 1 | 0 |
-| last60d | 2026-08-14 | 0 | 0 | 0 | 0 | 1 | 0 |
-| 90d | 2026-07-15 | 0 | 0 | 0 | 1 | 2 | 0 |
-| last180d | 2026-04-16 | 0 | 0 | 0 | 1 | 2 | 0 |
-| 360d | 2025-10-18 | 0 | 1 | 0 | 3 | 2 | 0 |
-| last720d | 2024-10-23 | 0 | 1 | 0 | 5 | 7 | 28 |
+| 30d | 2026-09-14 | 0 | 0 | 0 | 1 | 0 | 38 |
+| last60d | 2026-08-15 | 0 | 0 | 0 | 1 | 0 | 38 |
+| 90d | 2026-07-16 | 0 | 0 | 0 | 2 | 1 | 38 |
+| last180d | 2026-04-17 | 0 | 0 | 0 | 2 | 1 | 38 |
+| 360d | 2025-10-19 | 0 | 1 | 0 | 4 | 1 | 40 |
+| last720d | 2024-10-24 | 0 | 1 | 0 | 6 | 6 | 53 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for gifsicle lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T07:32:02Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T05:43:30Z._
