@@ -14,15 +14,15 @@ x install gifsicle
 
 ## Code insight
 
-Total: **18,101** lines of code across **37** files in the top 5 languages.
+Total: **18,413** lines of code across **37** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 16,611 | 2,295 | 2,733 | 25 |
-| CHeader | 674 | 217 | 218 | 6 |
-| Python | 661 | 20 | 80 | 2 |
+| C | 16,664 | 2,313 | 2,740 | 25 |
+| Python | 917 | 37 | 108 | 2 |
+| CHeader | 675 | 217 | 218 | 6 |
 | Sh | 81 | 28 | 12 | 2 |
-| Automake | 74 | 2 | 19 | 2 |
+| Automake | 76 | 2 | 19 | 2 |
 
 ## OpenSSF Scorecard
 
@@ -46,18 +46,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 20 · **Open PRs**: 1 · **Closed issues**: 157 · **Open issues**: 22 · **Commits**: 952
+- **Releases**: 0 · **Merged PRs**: 20 · **Open PRs**: 1 · **Closed issues**: 157 · **Open issues**: 22 · **Commits**: 961
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-15 | 0 | 0 | 0 | 1 | 0 | 53 |
-| last60d | 2026-08-16 | 0 | 0 | 0 | 1 | 0 | 53 |
-| 90d | 2026-07-17 | 0 | 0 | 0 | 2 | 1 | 53 |
-| last180d | 2026-04-18 | 0 | 0 | 0 | 2 | 1 | 53 |
-| 360d | 2025-10-20 | 0 | 1 | 0 | 4 | 1 | 55 |
-| last720d | 2024-10-25 | 0 | 1 | 0 | 6 | 6 | 68 |
+| 30d | 2026-09-16 | 0 | 0 | 0 | 1 | 0 | 62 |
+| last60d | 2026-08-17 | 0 | 0 | 0 | 1 | 0 | 62 |
+| 90d | 2026-07-18 | 0 | 0 | 0 | 2 | 1 | 62 |
+| last180d | 2026-04-19 | 0 | 0 | 0 | 2 | 1 | 62 |
+| 360d | 2025-10-21 | 0 | 1 | 0 | 4 | 1 | 64 |
+| last720d | 2024-10-26 | 0 | 1 | 0 | 6 | 6 | 77 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for gifsicle lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261015.yml` · 2026-10-15T05:21:36Z._
+_Snapshot: `data/card/261016.yml` · 2026-10-16T05:17:04Z._
