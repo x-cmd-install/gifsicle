@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,335 · **Forks**: 254 · **Open issues**: 181 · **Contributors**: 15
+- **Stars**: 4,334 · **Forks**: 254 · **Open issues**: 181 · **Contributors**: 15
 
 ## Totals (cumulative)
 
@@ -52,16 +52,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 0 | 0 | 0 | 1 | 2 | 62 |
-| last60d | 2026-08-24 | 0 | 0 | 0 | 1 | 2 | 62 |
-| 90d | 2026-07-25 | 0 | 0 | 0 | 1 | 2 | 62 |
-| last180d | 2026-04-26 | 0 | 0 | 0 | 2 | 3 | 62 |
-| 360d | 2025-10-28 | 0 | 1 | 0 | 4 | 3 | 64 |
-| last720d | 2024-11-02 | 0 | 1 | 0 | 6 | 8 | 77 |
+| 30d | 2026-09-24 | 0 | 0 | 0 | 1 | 2 | 62 |
+| last60d | 2026-08-25 | 0 | 0 | 0 | 1 | 2 | 62 |
+| 90d | 2026-07-26 | 0 | 0 | 0 | 1 | 2 | 62 |
+| last180d | 2026-04-27 | 0 | 0 | 0 | 2 | 3 | 62 |
+| 360d | 2025-10-29 | 0 | 1 | 0 | 4 | 3 | 64 |
+| last720d | 2024-11-03 | 0 | 1 | 0 | 6 | 8 | 77 |
 
 ## Distribution status
 
-Reported by **136** distros on [repology.org](https://repology.org/project/gifsicle). **18** are ✅ on the latest upstream release, **93** are ⚠️ on an older version.
+Reported by **136** distros on [repology.org](https://repology.org/project/gifsicle). **20** are ✅ on the latest upstream release, **91** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for gifsicle lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T05:27:24Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T05:12:11Z._
