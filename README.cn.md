@@ -52,16 +52,16 @@ x install gifsicle
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 0 | 0 | 0 | 1 | 2 | 62 |
-| last60d | 2026-08-28 | 0 | 0 | 0 | 1 | 2 | 62 |
-| 90d | 2026-07-29 | 0 | 0 | 0 | 1 | 2 | 62 |
-| last180d | 2026-04-30 | 0 | 0 | 0 | 2 | 3 | 62 |
-| 360d | 2025-11-01 | 0 | 1 | 0 | 4 | 3 | 64 |
-| last720d | 2024-11-06 | 0 | 1 | 0 | 6 | 8 | 77 |
+| 30d | 2026-09-28 | 0 | 0 | 0 | 1 | 2 | 62 |
+| last60d | 2026-08-29 | 0 | 0 | 0 | 1 | 2 | 62 |
+| 90d | 2026-07-30 | 0 | 0 | 0 | 1 | 2 | 62 |
+| last180d | 2026-05-01 | 0 | 0 | 0 | 2 | 3 | 62 |
+| 360d | 2025-11-02 | 0 | 1 | 0 | 4 | 3 | 64 |
+| last720d | 2024-11-07 | 0 | 1 | 0 | 6 | 8 | 77 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/gifsicle) 上共有 **136** 个发行版报告此项目。**22** 个 ✅ 已是最新上游版本，**89** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/gifsicle) 上共有 **136** 个发行版报告此项目。**23** 个 ✅ 已是最新上游版本，**88** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -73,7 +73,7 @@ x install gifsicle
 | Arch | `1.98` | ✅ latest |
 | Homebrew | `1.98` | ✅ latest |
 | Fedora rawhide | `1.98` | ✅ latest |
-| Nix unstable | `1.96` | ⚠️ outdated |
+| Nix unstable | `1.98` | ✅ latest |
 | Void | `1.96` | ⚠️ outdated |
 | Alpine edge | `1.97` | ⚠️ outdated |
 | openSUSE Tumbleweed | `1.98` | ✅ latest |
@@ -87,4 +87,4 @@ gifsicle 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261027.yml` · 2026-10-27T05:50:38Z._
+_数据快照: `data/card/261028.yml` · 2026-10-28T06:18:25Z._
