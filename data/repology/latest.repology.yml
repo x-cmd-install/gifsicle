@@ -1,3 +1,10 @@
+- repo: aix_osp
+  srcname: gifsicle
+  visiblename: gifsicle
+  version: "1.63"
+  origversion: 1.63-1
+  status: legacy
+  vulnerable: true
 - repo: alpine_3_20
   subrepo: community
   srcname: gifsicle
@@ -648,6 +655,15 @@
     - GPL-2
   categories:
     - graphics
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: gifsicle
+  binname: gifsicle
+  visiblename: gifsicle
+  version: "1.67"
+  origversion: null
+  status: legacy
+  vulnerable: true
 - repo: mageia_9
   subrepo: core/updates
   srcname: gifsicle
@@ -758,15 +774,6 @@
     - zimbatm@zimbatm.com
   licenses:
     - GPL-2.0-only
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: gifsicle
-  binname: gifsicle
-  visiblename: gifsicle
-  version: "1.67"
-  origversion: null
-  status: legacy
-  vulnerable: true
 - repo: nix_unstable
   srcname: gifsicle
   visiblename: gifsicle
@@ -857,7 +864,7 @@
   licenses:
     - GPL-2.0-only
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: gifsicle
   binnames:
     - gifsicle
@@ -870,7 +877,7 @@
   categories:
     - graphics
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: gifsicle
   binnames:
     - gifsicle
@@ -1132,36 +1139,36 @@
 - repo: aix_osp
   srcname: gifsicle
   visiblename: gifsicle
-  version: "1.84"
-  origversion: 1.84-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gifsicle
-  visiblename: gifsicle
-  version: "1.87"
-  origversion: 1.87-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gifsicle
-  visiblename: gifsicle
-  version: "1.88"
-  origversion: 1.88-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gifsicle
-  visiblename: gifsicle
-  version: "1.90"
-  origversion: 1.90-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gifsicle
-  visiblename: gifsicle
   version: "1.91"
   origversion: 1.91-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gifsicle
+  visiblename: gifsicle
+  version: "1.92"
+  origversion: 1.92-1
+  status: outdated
+  vulnerable: true
+- repo: pardus_21
+  subrepo: main
+  srcname: gifsicle
+  binnames:
+    - gifsicle
+  visiblename: gifsicle
+  version: "1.92"
+  origversion: 1.92-2
+  status: outdated
+  maintainers:
+    - hpfn@debian.org
+  categories:
+    - graphics
+  vulnerable: true
+- repo: aix_osp
+  srcname: gifsicle
+  visiblename: gifsicle
+  version: "1.66"
+  origversion: 1.66-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -1188,8 +1195,29 @@
 - repo: aix_osp
   srcname: gifsicle
   visiblename: gifsicle
-  version: "1.63"
-  origversion: 1.63-1
+  version: "1.84"
+  origversion: 1.84-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gifsicle
+  visiblename: gifsicle
+  version: "1.87"
+  origversion: 1.87-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gifsicle
+  visiblename: gifsicle
+  version: "1.88"
+  origversion: 1.88-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gifsicle
+  visiblename: gifsicle
+  version: "1.90"
+  origversion: 1.90-1
   status: legacy
   vulnerable: true
 - repo: alpine_3_17
@@ -1503,8 +1531,22 @@
   categories:
     - Productivity/Graphics/Other
   vulnerable: true
-- repo: pardus_21
-  subrepo: main
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: gifsicle
+  binnames:
+    - gifsicle
+  visiblename: gifsicle
+  version: "1.91"
+  origversion: 1.91-5
+  status: outdated
+  maintainers:
+    - hpfn@debian.org
+  categories:
+    - graphics
+  vulnerable: true
+- repo: pureos_byzantium
+  subrepo: byzantium/main
   srcname: gifsicle
   binnames:
     - gifsicle
@@ -1514,6 +1556,20 @@
   status: outdated
   maintainers:
     - hpfn@debian.org
+  categories:
+    - graphics
+  vulnerable: true
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: gifsicle
+  binnames:
+    - gifsicle
+  visiblename: gifsicle
+  version: "1.93"
+  origversion: 1.93-2
+  status: outdated
+  maintainers:
+    - gurkan@phys.ethz.ch
   categories:
     - graphics
   vulnerable: true
@@ -1600,60 +1656,4 @@
     - tar@debian.org
   categories:
     - universe/graphics
-  vulnerable: true
-- repo: aix_osp
-  srcname: gifsicle
-  visiblename: gifsicle
-  version: "1.92"
-  origversion: 1.92-1
-  status: outdated
-  vulnerable: true
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: gifsicle
-  binnames:
-    - gifsicle
-  visiblename: gifsicle
-  version: "1.91"
-  origversion: 1.91-5
-  status: outdated
-  maintainers:
-    - hpfn@debian.org
-  categories:
-    - graphics
-  vulnerable: true
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: gifsicle
-  binnames:
-    - gifsicle
-  visiblename: gifsicle
-  version: "1.92"
-  origversion: 1.92-2
-  status: outdated
-  maintainers:
-    - hpfn@debian.org
-  categories:
-    - graphics
-  vulnerable: true
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: gifsicle
-  binnames:
-    - gifsicle
-  visiblename: gifsicle
-  version: "1.93"
-  origversion: 1.93-2
-  status: outdated
-  maintainers:
-    - gurkan@phys.ethz.ch
-  categories:
-    - graphics
-  vulnerable: true
-- repo: aix_osp
-  srcname: gifsicle
-  visiblename: gifsicle
-  version: "1.66"
-  origversion: 1.66-1
-  status: legacy
   vulnerable: true
