@@ -1,10 +1,3 @@
-- repo: aix_osp
-  srcname: gifsicle
-  visiblename: gifsicle
-  version: "1.63"
-  origversion: 1.63-1
-  status: legacy
-  vulnerable: true
 - repo: alpine_3_20
   subrepo: community
   srcname: gifsicle
@@ -367,9 +360,9 @@
   subrepo: media
   srcname: media-gfx/gifsicle
   visiblename: media-gfx/gifsicle
-  version: "1.95"
+  version: "1.98"
   origversion: null
-  status: outdated
+  status: newest
   summary: Gifsicle manipulates GIF image files
   maintainers:
     - fallback-mnt-exherbo@repology
@@ -708,28 +701,6 @@
     - GPLv2+
   categories:
     - Graphics/Editors and Converters
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: gifsicle
-  binname: gifsicle
-  visiblename: gifsicle
-  version: "1.96"
-  origversion: 1.96-1
-  status: outdated
-  summary: Command-line tool for creating, editing, and getting information about GIF images and animations
-  licenses:
-    - GPL-2.0-only
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: gifsicle
-  binname: gifsicle
-  visiblename: gifsicle
-  version: "1.96"
-  origversion: 1.96-1
-  status: outdated
-  summary: Command-line tool for creating, editing, and getting information about GIF images and animations
-  licenses:
-    - GPL-2.0-only
 - repo: manjaro_unstable
   subrepo: extra
   srcname: gifsicle
@@ -1136,22 +1107,22 @@
   summary: command line application for creating, editing, and displaying information about GIF images
   licenses:
     - GNU General Public License, version 2.0
-- repo: aix_osp
+- repo: pureos_amber
+  subrepo: amber/main
   srcname: gifsicle
+  binnames:
+    - gifsicle
   visiblename: gifsicle
   version: "1.91"
-  origversion: 1.91-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: gifsicle
-  visiblename: gifsicle
-  version: "1.92"
-  origversion: 1.92-1
+  origversion: 1.91-5
   status: outdated
+  maintainers:
+    - hpfn@debian.org
+  categories:
+    - graphics
   vulnerable: true
-- repo: pardus_21
-  subrepo: main
+- repo: pureos_byzantium
+  subrepo: byzantium/main
   srcname: gifsicle
   binnames:
     - gifsicle
@@ -1163,6 +1134,27 @@
     - hpfn@debian.org
   categories:
     - graphics
+  vulnerable: true
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: gifsicle
+  binnames:
+    - gifsicle
+  visiblename: gifsicle
+  version: "1.93"
+  origversion: 1.93-2
+  status: outdated
+  maintainers:
+    - gurkan@phys.ethz.ch
+  categories:
+    - graphics
+  vulnerable: true
+- repo: aix_osp
+  srcname: gifsicle
+  visiblename: gifsicle
+  version: "1.63"
+  origversion: 1.63-1
+  status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: gifsicle
@@ -1220,19 +1212,19 @@
   origversion: 1.90-1
   status: legacy
   vulnerable: true
-- repo: alpine_3_17
-  subrepo: community
+- repo: aix_osp
   srcname: gifsicle
-  binname: gifsicle-doc
-  visiblename: gifsicle-doc
-  version: "1.93"
-  origversion: 1.93-r1
+  visiblename: gifsicle
+  version: "1.91"
+  origversion: 1.91-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: gifsicle
+  visiblename: gifsicle
+  version: "1.92"
+  origversion: 1.92-1
   status: outdated
-  summary: Command-line tool for making, editing and getting information about GIF animations (documentation)
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-2.0-only
   vulnerable: true
 - repo: alpine_3_17
   subrepo: community
@@ -1243,6 +1235,20 @@
   origversion: 1.93-r1
   status: outdated
   summary: Command-line tool for making, editing and getting information about GIF animations
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-2.0-only
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: gifsicle
+  binname: gifsicle-doc
+  visiblename: gifsicle-doc
+  version: "1.93"
+  origversion: 1.93-r1
+  status: outdated
+  summary: Command-line tool for making, editing and getting information about GIF animations (documentation)
   maintainers:
     - fallback-mnt-alpine@repology
   licenses:
@@ -1493,6 +1499,30 @@
   categories:
     - Graphics/Editors and Converters
   vulnerable: true
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: gifsicle
+  binname: gifsicle
+  visiblename: gifsicle
+  version: "1.94"
+  origversion: 1.94-1
+  status: outdated
+  summary: Command-line tool for creating, editing, and getting information about GIF images and animations
+  licenses:
+    - GPL2
+  vulnerable: true
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: gifsicle
+  binname: gifsicle
+  visiblename: gifsicle
+  version: "1.94"
+  origversion: 1.94-1
+  status: outdated
+  summary: Command-line tool for creating, editing, and getting information about GIF images and animations
+  licenses:
+    - GPL2
+  vulnerable: true
 - repo: openpkg_current
   srcname: gifsicle
   visiblename: gifsicle
@@ -1504,19 +1534,6 @@
     - GPL
   categories:
     - Graphics
-  vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: updates/backports
-  srcname: gifsicle
-  visiblename: gifsicle
-  version: "1.94"
-  origversion: 1.94-bp155.3.3.1
-  status: legacy
-  summary: Creating and editing GIF images and animations
-  licenses:
-    - GPL-2.0-only
-  categories:
-    - Productivity/Graphics/Other
   vulnerable: true
 - repo: opensuse_leap_15_5
   subrepo: main/oss
@@ -1531,22 +1548,21 @@
   categories:
     - Productivity/Graphics/Other
   vulnerable: true
-- repo: pureos_amber
-  subrepo: amber/main
+- repo: opensuse_leap_15_5
+  subrepo: updates/backports
   srcname: gifsicle
-  binnames:
-    - gifsicle
   visiblename: gifsicle
-  version: "1.91"
-  origversion: 1.91-5
-  status: outdated
-  maintainers:
-    - hpfn@debian.org
+  version: "1.94"
+  origversion: 1.94-bp155.3.3.1
+  status: legacy
+  summary: Creating and editing GIF images and animations
+  licenses:
+    - GPL-2.0-only
   categories:
-    - graphics
+    - Productivity/Graphics/Other
   vulnerable: true
-- repo: pureos_byzantium
-  subrepo: byzantium/main
+- repo: pardus_21
+  subrepo: main
   srcname: gifsicle
   binnames:
     - gifsicle
@@ -1556,20 +1572,6 @@
   status: outdated
   maintainers:
     - hpfn@debian.org
-  categories:
-    - graphics
-  vulnerable: true
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: gifsicle
-  binnames:
-    - gifsicle
-  visiblename: gifsicle
-  version: "1.93"
-  origversion: 1.93-2
-  status: outdated
-  maintainers:
-    - gurkan@phys.ethz.ch
   categories:
     - graphics
   vulnerable: true
