@@ -31,8 +31,8 @@ Overall score: **4.5 / 10**
 Lowest-scoring checks:
 
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **SAST** (0/10) — no SAST tool detected
 
 ## Source
 
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,342 · **Forks**: 255 · **Open issues**: 181 · **Contributors**: 15
+- **Stars**: 4,343 · **Forks**: 255 · **Open issues**: 181 · **Contributors**: 15
 
 ## Totals (cumulative)
 
@@ -52,12 +52,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 0 | 0 | 1 | 2 | 62 |
-| last60d | 2026-09-04 | 0 | 0 | 0 | 1 | 2 | 62 |
-| 90d | 2026-08-05 | 0 | 0 | 0 | 1 | 2 | 62 |
-| last180d | 2026-05-07 | 0 | 0 | 0 | 2 | 3 | 62 |
-| 360d | 2025-11-08 | 0 | 1 | 0 | 4 | 3 | 64 |
-| last720d | 2024-11-13 | 0 | 1 | 0 | 6 | 8 | 77 |
+| 30d | 2026-10-05 | 0 | 0 | 0 | 1 | 2 | 62 |
+| last60d | 2026-09-05 | 0 | 0 | 0 | 1 | 2 | 62 |
+| 90d | 2026-08-06 | 0 | 0 | 0 | 1 | 2 | 62 |
+| last180d | 2026-05-08 | 0 | 0 | 0 | 2 | 3 | 62 |
+| 360d | 2025-11-09 | 0 | 1 | 0 | 4 | 3 | 64 |
+| last720d | 2024-11-14 | 0 | 1 | 0 | 6 | 8 | 77 |
 
 ## Distribution status
 
@@ -87,4 +87,4 @@ Install metadata for gifsicle lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T07:45:36Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T07:17:37Z._
