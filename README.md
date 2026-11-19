@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,354 · **Forks**: 254 · **Open issues**: 181 · **Contributors**: 15
+- **Stars**: 4,357 · **Forks**: 254 · **Open issues**: 181 · **Contributors**: 15
 
 ## Totals (cumulative)
 
@@ -52,12 +52,31 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-18 | 0 | 0 | 0 | 1 | 2 | 62 |
-| 90d | 2026-08-19 | 0 | 0 | 0 | 1 | 2 | 62 |
-| last180d | 2026-05-21 | 0 | 0 | 0 | 2 | 3 | 62 |
-| 360d | 2025-11-22 | 0 | 1 | 0 | 4 | 3 | 64 |
-| last720d | 2024-11-27 | 0 | 1 | 0 | 5 | 8 | 77 |
+| 30d | 2026-10-20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-20 | 0 | 0 | 0 | 1 | 2 | 62 |
+| 90d | 2026-08-21 | 0 | 0 | 0 | 1 | 2 | 62 |
+| last180d | 2026-05-23 | 0 | 0 | 0 | 2 | 3 | 62 |
+| 360d | 2025-11-24 | 0 | 1 | 0 | 4 | 3 | 64 |
+| last720d | 2024-11-29 | 0 | 1 | 0 | 5 | 8 | 77 |
+
+## Distribution status
+
+Reported by **134** distros on [repology.org](https://repology.org/project/gifsicle). **31** are ✅ on the latest upstream release, **79** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.98` | ✅ latest |
+| Debian 14 | `1.98` | ✅ latest |
+| Debian 13 | `1.96` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.96` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.94` | ⚠️ outdated |
+| Arch | `1.98` | ✅ latest |
+| Homebrew | `1.98` | ✅ latest |
+| Fedora rawhide | `1.98` | ✅ latest |
+| Nix unstable | `1.98` | ✅ latest |
+| Void | `1.96` | ⚠️ outdated |
+| Alpine edge | `1.98` | ✅ latest |
+| openSUSE Tumbleweed | `1.98` | ✅ latest |
 
 ## Improve this data
 
@@ -68,4 +87,4 @@ Install metadata for gifsicle lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T10:38:50Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T09:25:24Z._
