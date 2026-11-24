@@ -14,11 +14,11 @@ x install gifsicle
 
 ## Code insight
 
-Total: **18,413** lines of code across **37** files in the top 5 languages.
+Total: **18,484** lines of code across **37** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 16,664 | 2,313 | 2,740 | 25 |
+| C | 16,735 | 2,314 | 2,744 | 25 |
 | Python | 917 | 37 | 108 | 2 |
 | CHeader | 675 | 217 | 218 | 6 |
 | Sh | 81 | 28 | 12 | 2 |
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,358 · **Forks**: 255 · **Open issues**: 181 · **Contributors**: 15
+- **Stars**: 4,359 · **Forks**: 255 · **Open issues**: 181 · **Contributors**: 15
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 20 · **Open PRs**: 2 · **Closed issues**: 157 · **Open issues**: 24 · **Commits**: 961
+- **Releases**: 0 · **Merged PRs**: 20 · **Open PRs**: 2 · **Closed issues**: 157 · **Open issues**: 24 · **Commits**: 962
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-09-24 | 0 | 0 | 1 | 1 | 2 | 0 |
-| 90d | 2026-08-25 | 0 | 0 | 1 | 1 | 2 | 0 |
-| last180d | 2026-05-27 | 0 | 0 | 1 | 2 | 3 | 0 |
-| 360d | 2025-11-28 | 0 | 1 | 1 | 4 | 3 | 0 |
-| last720d | 2024-12-03 | 0 | 1 | 1 | 5 | 8 | 77 |
+| 30d | 2026-10-25 | 0 | 0 | 1 | 0 | 0 | 1 |
+| last60d | 2026-09-25 | 0 | 0 | 1 | 1 | 2 | 63 |
+| 90d | 2026-08-26 | 0 | 0 | 1 | 1 | 2 | 63 |
+| last180d | 2026-05-28 | 0 | 0 | 1 | 2 | 3 | 63 |
+| 360d | 2025-11-29 | 0 | 1 | 1 | 4 | 3 | 65 |
+| last720d | 2024-12-04 | 0 | 1 | 1 | 5 | 8 | 78 |
 
 ## Distribution status
 
-Reported by **133** distros on [repology.org](https://repology.org/project/gifsicle). **32** are ✅ on the latest upstream release, **77** are ⚠️ on an older version.
+Reported by **133** distros on [repology.org](https://repology.org/project/gifsicle). **33** are ✅ on the latest upstream release, **76** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -71,7 +71,7 @@ Reported by **133** distros on [repology.org](https://repology.org/project/gifsi
 | Ubuntu 26.04 LTS | `1.96` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.94` | ⚠️ outdated |
 | Arch | `1.98` | ✅ latest |
-| Homebrew | `1.98` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `1.98` | ✅ latest |
 | Nix unstable | `1.98` | ✅ latest |
 | Void | `1.96` | ⚠️ outdated |
@@ -87,4 +87,4 @@ Install metadata for gifsicle lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T08:05:44Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T10:20:00Z._
