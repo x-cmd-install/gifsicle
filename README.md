@@ -14,14 +14,14 @@ x install gifsicle
 
 ## Code insight
 
-Total: **18,484** lines of code across **37** files in the top 5 languages.
+Total: **18,617** lines of code across **40** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 16,735 | 2,314 | 2,744 | 25 |
-| Python | 917 | 37 | 108 | 2 |
-| CHeader | 675 | 217 | 218 | 6 |
-| Sh | 81 | 28 | 12 | 2 |
+| C | 16,795 | 2,346 | 2,749 | 26 |
+| Python | 919 | 37 | 108 | 2 |
+| CHeader | 686 | 228 | 221 | 6 |
+| Sh | 122 | 63 | 20 | 4 |
 | Automake | 76 | 2 | 19 | 2 |
 
 ## OpenSSF Scorecard
@@ -42,41 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,359 · **Forks**: 255 · **Open issues**: 181 · **Contributors**: 15
+- **Stars**: 4,361 · **Forks**: 255 · **Open issues**: 181 · **Contributors**: 15
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 20 · **Open PRs**: 2 · **Closed issues**: 157 · **Open issues**: 24 · **Commits**: 962
+- **Releases**: 0 · **Merged PRs**: 20 · **Open PRs**: 2 · **Closed issues**: 157 · **Open issues**: 24 · **Commits**: 965
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 1 | 0 | 0 | 1 |
-| last60d | 2026-09-25 | 0 | 0 | 1 | 1 | 2 | 63 |
-| 90d | 2026-08-26 | 0 | 0 | 1 | 1 | 2 | 63 |
-| last180d | 2026-05-28 | 0 | 0 | 1 | 2 | 3 | 63 |
-| 360d | 2025-11-29 | 0 | 1 | 1 | 4 | 3 | 65 |
-| last720d | 2024-12-04 | 0 | 1 | 1 | 5 | 8 | 78 |
-
-## Distribution status
-
-Reported by **133** distros on [repology.org](https://repology.org/project/gifsicle). **33** are ✅ on the latest upstream release, **76** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.98` | ✅ latest |
-| Debian 14 | `1.98` | ✅ latest |
-| Debian 13 | `1.96` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.96` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.94` | ⚠️ outdated |
-| Arch | `1.98` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
-| Fedora rawhide | `1.98` | ✅ latest |
-| Nix unstable | `1.98` | ✅ latest |
-| Void | `1.96` | ⚠️ outdated |
-| Alpine edge | `1.98` | ✅ latest |
-| openSUSE Tumbleweed | `1.98` | ✅ latest |
+| 30d | 2026-10-26 | 0 | 0 | 1 | 0 | 0 | 4 |
+| last60d | 2026-09-26 | 0 | 0 | 1 | 1 | 2 | 66 |
+| 90d | 2026-08-27 | 0 | 0 | 1 | 1 | 2 | 66 |
+| last180d | 2026-05-29 | 0 | 0 | 1 | 2 | 3 | 66 |
+| 360d | 2025-11-30 | 0 | 1 | 1 | 4 | 3 | 68 |
+| last720d | 2024-12-05 | 0 | 1 | 1 | 5 | 8 | 81 |
 
 ## Improve this data
 
@@ -87,4 +68,4 @@ Install metadata for gifsicle lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:20:00Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T10:24:34Z._
